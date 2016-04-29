@@ -96,7 +96,12 @@ img{
   background-position:center;
   margin:-100px 0 0 -100px; /* is width and height divided by two */
 }
-
+.lefttab{
+	 padding-left:25px;  
+}
+.listdownpadding{
+	padding-bottom:5px;
+}
 /*scrol to top*/
 
 .scrollToTop {
@@ -172,6 +177,7 @@ img{
 .navbar-brand {                                                                                                                                                                                                                                                                                                                                                                                                                         	
 	color: #fff !important;
 	font-size: 35px;
+	white-space: nowrap;
 	font-weight: bolder;
 	font-family: 'Varela', sans-serif;
 }
