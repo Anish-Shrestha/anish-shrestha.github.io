@@ -90,8 +90,9 @@
             <ul id="top-menu" class="nav navbar-nav navbar-right main_nav">
               <li class="active"><a href="#">Home</a></li>
               <li><a href="#about">Education</a></li>
+			   <li><a href="#team">Skills</a></li> 
               <li><a href="#service">Projects</a></li> 
-              <li><a href="#team">Awards</a></li> 
+             
               <li><a href="#pricing">Experience</a></li> 
               <li><a href="#contact">Contact</a></li>     
 			  <li></li>
@@ -110,8 +111,8 @@
 
             <!-- THE FIRST SLIDE-->
             <li>
-              <!-- FIRST SLIDE OVERLAY -->
-              <div class="slider_overlay"></div> 
+              <!-- FIRST SLIDE OVERLAY 
+              <div class="slider_overlay"></div> -->
               <!-- FIRST SLIDE MAIN IMAGE -->
               <img class="slides-image" src="img/full-slider/full-slide1.jpg" alt="img">
 			  <!-- FIRST SLIDE CAPTION-->
@@ -247,14 +248,18 @@
 					  </div>
                     </div>
                   </div>
-                  <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class=" educationimage col-lg-6 col-md-6 col-sm-12">
                     <div class="about_slider">
                       <!-- BEGAIN FEATURED SLIDER -->
                       <div class="featured_slider">
                   
                         <!-- SINGLE SLIDE IN THE SLIDER -->
                         <div class="single_iteam">
-                          <a href=""> <img src="img/feature_img3.jpg" alt="img"></a>                           
+						<figure>
+  <img src="img/feature_img3.jpg" alt="img">   
+  <figcaption class="educationcaption"><i>Receiving degree from prime minister of Nepal</i></figcaption>
+</figure>
+                                             
                         </div>
                        
                        
@@ -268,8 +273,15 @@
           </div>
         </div>       
       </div>
-       <!-- BEGAIN SKILLS  -->
-        <div class="row">
+      
+    </section>
+    <!--=========== END ABOUT SECTION ================-->
+	
+	
+	
+	 <!-- BEGAIN SKILLS  -->
+	<section id="team">
+	 
           <div class="col-lg-12 col-md-12">
             <div class="skills_area">
               <div class="slider_overlay"></div>
@@ -278,49 +290,37 @@
                  <div class="heading">
                     <h3 class="wow fadeInDown">My Skills</h3>               
                   </div>
-                  <!-- START SINGLE SKILL-->
+				 
+				  <ul class="skillformat">
+								<li  class="listdownpadding"><span class="skillHeader">Languages:</span>  C#, C, C++, Java </li>
+								<br><li  class="listdownpadding"><span class="skillHeader">Web:</span> ASP.Net MVC 5, RESTful Web Services: Web API – JSON  XML, SignalR, LINQ,  JQuery, Ajax, JavaScript, HTML5, CSS, MVVM - KnockoutJS, UI frameworks: kendoUI, Bootstrap, JQueryUI </li>
+								<br><li  class="listdownpadding"><span class="skillHeader">Databases:</span> MS SQL Server, MySql </li>
+								<br><li  class="listdownpadding"><span class="skillHeader">Tools:</span> Visual Studio, MS SQL Server, StarUML, LinqPad, Fiddler, Eclipse, Scene Builder, NetBeans, MySql workbench, Selenium IDE, EF, ADO.NET</li>
+								<br><li  class="listdownpadding"><span class="skillHeader">Tools associated with Visual Studio:</span> Ncrunch, NUnit, Resharper, Gitflow for Git Workflow, log4net </li>
+								<br><li  class="listdownpadding"><span class="skillHeader">Versioning Tools:</span> TFS, SVN – Tortoise SVN, Git - Tortoise Git, Source Tree, Git Bash</li>
+							<br><li  class="listdownpadding"><span class="skillHeader">Project Management tools:</span> Jira, Asana</li>
+							</ul>
+                  <!-- START SINGLE SKILL
                   <div class="col-lg-3 col-md-3 col-sm-3">
                    <div class="single_skill wow fadeInUp">
-                  <!--<div id="myStat" data-dimension="150" data-text="90%" data-info="" data-width="10" data-fontsize="25" data-percent="100" data-fgcolor="#999" data-bgcolor="#fff"  data-icon="fa-task"></div>
-                   -->
+                  
 				   <h4>ASP.Net MVC</h4>    
 					<h4>90%</h4>
                     </div>
-                  </div>
+                  </div>-->
 
-                  <!-- START SINGLE SKILL-->
-                  <div class="col-lg-3 col-md-3 col-sm-3">
-                    <div class="single_skill wow fadeInUp">
-                   <!--    <div id="myStathalf2" data-dimension="150" data-text="90%" data-info="" data-width="10" data-fontsize="25" data-percent="85" data-fgcolor="#999" data-bgcolor="#fff"  data-icon="fa-task"></div>
-                      --><h4>C#.Net</h4>
-					  	<h4>90%</h4>
-                    </div>
-                  </div>
-                  <!-- START SINGLE SKILL-->
-                  <div class="col-lg-3 col-md-3 col-sm-3">                 
-                    <div class="single_skill wow fadeInUp">
-                    <!--   <div id="myStat2" data-dimension="150" data-text="75%" data-info="" data-width="10" data-fontsize="25" data-percent="75" data-fgcolor="#999" data-bgcolor="#fff"  data-icon="fa-task"></div>
-                      --><h4>jQuery</h4>
-					  	<h4>85%</h4>
-                    </div>
-                  </div>
-                  <!-- START SINGLE SKILL-->
-                  <div class="col-lg-3 col-md-3 col-sm-3">                 
-                    <div class="single_skill wow fadeInUp">
-                   <!--    <div id="myStat3" data-dimension="150" data-text="70%" data-info="" data-width="10" data-fontsize="25" data-percent="65" data-fgcolor="#999" data-bgcolor="#fff"  data-icon="fa-task"></div>
-                     --> <h4>MS SQL Server</h4>
-					 	<h4>85%</h4>
-                    </div>
-                  </div>
+                 
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <!-- END SKILLS  -->
-    </section>
-    <!--=========== END ABOUT SECTION ================-->
-
+       
+	</section>
+	
+	<!-- END SKILLS  -->
+	
+	
+	
     <!--=========== BEGIN SERVICE SECTION ================-->
     <section id="service">
       <div class="container">
@@ -338,154 +338,119 @@
             <!-- BEGAIN SERVICE  -->
             <div class="service_area">
               <div class="row">
+			  
+			  
+			  
                 <div class="col-lg-6 col-md-6 col-sm-6">
                   <!-- BEGAIN SINGLE SERVICE -->
                   <div class="single_service wow fadeInLeft">
-                    <div class="service_iconarea">
-                      <span class="fa fa-th service_icon"></span>
-                    </div>
                     <h3 class="service_title">UNIVERSAL DATAHUB</h3>
-                    <p>Its a cloud-based system and specialty software: the Universal Data Hub. Scalable, extensible, and cost effective. Our team can gather and process unstructured data to add to the Universal Data Hub.</p>
-                  </div>
+                   <p> A universal Catalog manager with following features</p>
+				  <ol class="lefttab description">
+<li  class="listdownpadding"> Highly Dynamic PIM Catalog Management tool, with fully customizable business validation rules, transformation rules, auto sync to live stores and much more.</li>
+<li  class="listdownpadding"> Central Product Information Storage / Management (e.g 150,000+ Products of one of the Client)</li>
+<li  class="listdownpadding"> Vendor Product Information Storage / Management e.g more that 1300+ Vendors Product imported and managed with some vendors having more than 60,000+ products, imported on a daily/weekly basis</li>
+<li  class="listdownpadding"> Seamless integration of the products with the live sites, to reflect changes.</li>
+<li  class="listdownpadding"> Automatic update of the information as updated by Vendors e.g. product price updated based on the vendor product cost update.</li>
+<li  class="listdownpadding"> Fully dynamic customizable Business rules i.e. report when the cost is missing, report when the cost is increased by more than 150 percent by the vendor and much more</li>
+<li  class="listdownpadding"> Fully dynamic customizable calculated columns i.e. While importing vendor product data, automatically calculate the Per Unit Cost based on the total Cost and Quantity.</li>
+<li  class="listdownpadding"> Automatic dynamic Handling of derived columns on the fly in run-time.</li>
+<li  class="listdownpadding"> Fully driven by simple to use UI. Even a naive user, can simply import the vendor file and rest will all be handled by the ETL itself.</li>
+<li  class="listdownpadding"> Advanced reporting for every possible errors, a business shall encounter.</li>
+<li  class="listdownpadding"> Currently in successful use by couple of major retail outlets in US </li>
+</ol>
+					</div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6">
                   <!-- BEGAIN SINGLE SERVICE -->
                   <div class="single_service wow fadeInRight">
-                    <div class="service_iconarea">
-                      <span class="fa fa-th service_icon"></span>
-                    </div>
+                   
                     <h3 class="service_title">INCESSANT ANIMATION PRODUCTION TOOL</h3>
-                    <p>IAPT is animation project management tool which follows each department’s progress, shows the status of the project at all times and reporting to the leads and management team. It is efficient systems which manages workflow. It organizes lots of data, references, images, textures, scenes etc. these elements are correctly placed at a specific place along with its associated elements. </p>
+                    <p class="description">IAPT is animation project management tool which follows each department’s progress, shows the status of the project at all times and reporting to the leads and management team. It is efficient systems which manages workflow. It organizes lots of data, references, images, textures, scenes etc. these elements are correctly placed at a specific place along with its associated elements. 
+			<br><br>	It facilitates collaboration among team members, helping them become more efficient. Priorities can be set for tasks and these can be executed in a scheduled manner. With this tool, animators can effectively manage their multiple projects and complete, delivering them as per schedule. At every step, project management solutions enable animators to divide a process into distinct stages. For example, creating a single shot can be divided into five distinct stages; layout, modelling, animation, rendering and compositing. The duration of these stages can be set and progress of each stage needs to be tracked. scene-by scene and break down the production into tasks and sub-tasks, make rigid estimates about how much time each scene would take in getting completed. All the related tasks in the task lists can be added and assigned to animator with their specific start date and due date. It also keep trace of daily status of animators.
+				</p>
                   </div>
                 </div>
+				
+				
+				
+				
+				
                 <div class="col-lg-6 col-md-6 col-sm-6">
                   <!-- BEGAIN SINGLE SERVICE -->
                   <div class="single_service wow fadeInLeft">
-                    <div class="service_iconarea">
-                      <span class="fa fa-th service_icon"></span>
-                    </div>
-                    <h3 class="service_title">HUMAN RESOURCE MANAGEMENT SYSTEM</h3>
-                    <p></p>
+                      <h3 class="service_title">DAILY REPORT</h3>
+                    <p>It facilitates with tracking daily employees tasks, labor performed, delay hours,  meetings, visitors and comments. Track internal issues of the employee task. Dailies track actual employee progress against estimates for up to date employee productivity.</p>
+<ol class="lefttab description">
+<li  class="listdownpadding">Completely manage employees daily task reports</li>
+<li  class="listdownpadding">Forecast project state and conditions</li>
+<li  class="listdownpadding">Increase team productivity with detailed task tracking</li>
+<li  class="listdownpadding">Log daily reports to searchable database that is accessible any time</li>
+</ol>
                   </div>
                 </div>
+				
+				
+				
+				
+				
                 <div class="col-lg-6 col-md-6 col-sm-6">
                   <!-- BEGAIN SINGLE SERVICE -->
                   <div class="single_service wow fadeInRight">
-                    <div class="service_iconarea">
-                      <span class="fa fa-gear service_icon"></span>
-                    </div>
-                    <h3 class="service_title">BURGLAR ALARM SYSTEM</h3>
-                    <p>The main purpose of this project is to design and implement a burglar alarm system based on GSM technology. In this system only authentic person who has the correct password can enter home without triggering security system. It is a burglar alarm system for detecting an intrusion into a monitored area by a passive infrared detector.</p>
+                    
+                    <h3 class="service_title">LEAVE MANAGEMENT SYSTEM</h3>
+					<p>KendoUI Scheduler is used for displaying leave requested by the employee. </p>
+					<b>Using Leave Management, Employees can:</b>
+                    <ol class="lefttab description">
+<li  class="listdownpadding"> Enter and request for leave for half day/a day or for many days</li>
+<li  class="listdownpadding">View time earned, time taken and remaining balance for each policy assigned </li>
+<li class="listdownpadding"> View leave taken history, and avaliable public holidays and office holidays</li>
+<li class="listdownpadding">Particular department's employee can view leave of their own department employees</li>
+</ol>
+<b> Using Leave Management, Managers can:</b>
+   <ol class="lefttab description">
+<li  class="listdownpadding">Approve or reject employee requests for time off</li>
+<li  class="listdownpadding">View time earned, time taken and time remaining for each employee</li>
+<li  class="listdownpadding">View leave history of all employees</li>
+<li  class="listdownpadding">Make adjustments to an employee's overtime</li>
+</ol>
+ <b>Using Leave Management, HR Professionals can:</b>
+ <ol class="lefttab description">
+<li  class="listdownpadding">Perform all of the functions that employees and managers can perform</li>
+<li  class="listdownpadding">Edit/Delete leave records</li>
+<li  class="listdownpadding">Manage leave policy assignments</li>
+<li  class="listdownpadding">Assign leave policies during the hire process</li>
+</ol>
                   </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                  <!-- BEGAIN SINGLE SERVICE -->
-                  <div class="single_service wow fadeInLeft">
-                   <div class="service_iconarea">
-                      <span class="fa fa-gear service_icon"></span>
-                    </div>
-                    <h3 class="service_title">TECHKRITI</h3>
-                    <p>It is a line following robot. It solves the maze based on the black spot on the track and moves towards center. <a href="http://www.youtube.com/watch?feature=player_embedded&v=v5HvawT3uAw" style="color:blue;">Click Here</a> </p>
-                  </div>
-                </div>
+               
+			   
+			   
                 <div class="col-lg-6 col-md-6 col-sm-6">
                   <!-- BEGAIN SINGLE SERVICE -->
                   <div class="single_service wow fadeInRight">
-                   <div class="service_iconarea">
-                      <span class="fa fa-gear service_icon"></span>
-                    </div>
-                    <h3 class="service_title">PROPELLER-CLOCK</h3>
-                    <p>It displays clock using only 8 vertically aligned LEDs which rotates at very high speed.  It uses principal of POV (Persistence of Vision)</p>
-                  </div>
-                </div>               
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--=========== END SERVICE SECTION ================-->
+                          <h3 class="service_title">DORMITORY MANAGEMENT SYSTEM</h3>
+<ol class="lefttab description">
+<li  class="listdownpadding">Developed a desktop application for Dormitory management system. </li>
+<li  class="listdownpadding">Used Eclipse for the IDE and back-end database functionality, with MySQL for the database. </li>
+<li  class="listdownpadding">Worked with 3 team members to integrate all modules into a complete application.</li>
+<li  class="listdownpadding">This application keeps the record of Students in the dormitory, room items of students via checkin and checkout forms. </li>
+<li  class="listdownpadding">Developed notification, forum area for and to student, to make living in dormitory more pleasant.</li>
+<li  class="listdownpadding">Developed student grid with advance filter, add, edit and delete options.</li>
+</ol>
+					</div>
+                </div>     
 
-    <!--=========== BEGAIN TEAM SECTION ================-->
-    <section id="team">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 col-md-12">
-            <!-- BEGAIN ABOUT HEADING -->
-            <div class="heading">
-              <h2 class="wow fadeInLeftBig">Awards</h2>            
-            </div>
-            <div class="team_area">
-              <!-- BEGAIN TEAM SLIDER -->
-              <div class="team_slider">  
-			  <!-- BEGAIN SINGLE TEAM SLIDE#1 -->              
-                <div class="col-lg-3 col-md-3 col-sm-4">
-                  <div class="single_team wow fadeInUp">
-                  <!--   <div class="team_img">
-                      <img src="img/team-1.jpg" alt="img">
-                    </div> -->
-                    <h5 class="">Certificate of Appretiation</h5>
-                    <span>Cosmos College</span>                        
-                    <p>Dean List by scoring 3.85 CPGA out of 4 CPGA</p>
-                                 </div>
-                </div>
-                <!-- BEGAIN SINGLE TEAM SLIDE#1 -->              
-                <div class="col-lg-3 col-md-3 col-sm-4">
-                  <div class="single_team wow fadeInUp">
-                  <!--   <div class="team_img">
-                      <img src="img/team-1.jpg" alt="img">
-                    </div> -->
-                    <h5 class="">Merit Certificate</h5>
-                    <span>Cosmos College</span>                        
-                    <p>1st Position in 1st, 2nd, 3rd, 4th, 5th, 6th, 7th and 8th semesters.</p>
-                                 </div>
-                </div>
-                <!-- BEGAIN SINGLE TEAM SLIDE#2 -->
-                <div class="col-lg-3 col-md-3 col-sm-4">
-                  <div class="single_team wow fadeInUp">
-                    <!-- <div class="team_img">
-                      <img src="img/team-2.jpg" alt="img">
-                    </div> -->
-                    <h5>Yantra 2.0 National Robotics Competition</h5>
-                    <span>2013</span>                        
-                    <p> 1st Position in RoboRacer competition</p>
-                  
-                  </div>
-                </div>
-                <!-- BEGAIN SINGLE TEAM SLIDE#3 -->
-                <div class="col-lg-3 col-md-3 col-sm-4">
-                  <div class="single_team wow fadeInUp">
-                    <!-- <div class="team_img">
-                      <img src="img/team-3.jpg" alt="img">
-                    </div> -->
-                    <h5>Best Robot Award</h5>
-                    <span>2012</span>                        
-                    <p> This robot cleans the room automatically.</p>
-                   
-                  </div>
-                </div>
-                <!-- BEGAIN SINGLE TEAM SLIDE#4 -->
-                <div class="col-lg-3 col-md-3 col-sm-4">
-                  <div class="single_team wow fadeInUp">
-                   
-                    <h5>Chess Competition</h5>
-                    <span>Cosmos College</span>                        
-                    <p> 2nd Position in chess competition held on Cosmos College in 2012</p>
-                   
-                  </div>
-                </div>
-                <!-- BEGAIN SINGLE TEAM SLIDE#5 -->
-                <div class="col-lg-3 col-md-3 col-sm-4">
-                  <div class="single_team wow fadeInUp">
-                    
-                    <h5>BasketBall Competition</h5>
-                    <span>Cosmos College</span>                        
-                    <p>3rd Position in basket ball competition held on Cosmos College in 2012</p>
-                    
-                  </div>
-                </div>
-              
 
+ <div class="col-lg-6 col-md-6 col-sm-6">
+                  <!-- BEGAIN SINGLE SERVICE -->
+                  <div class="single_service wow fadeInRight">
+                   <h3 class="service_title">TECHKRITI</h3>
+                    <p class="description">It is a line following robot. I have use <b>C Programming</b> language to automate this robot based on the sensor input. The sensors are located at buttom of the robot. It solves the maze based on the black spot on the track and moves towards center. Click on the link to watch video: <a href="http://www.youtube.com/watch?feature=player_embedded&v=v5HvawT3uAw" style="color:blue;">ClickHere</a> </p>
+                  </div>
+                </div>
+				
+				
 				
               </div>
             </div>
@@ -493,7 +458,7 @@
         </div>
       </div>
     </section>
-    <!--=========== END TEAM SECTION ================-->
+    <!--=========== END SERVICE SECTION ================-->
 
 
     <!--=========== BEGAIN PRICING SECTION ================-->
@@ -507,39 +472,47 @@
           </div>
         </div>
         <div class="row col-lg-12 col-md-12">
-          <div class="pricing_area">
+          <div class="container">
             <div class="row">
               <!-- BEGAIN BASIC PRICE TABLE -->
-              <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="single_price wow fadeInUp">
-                  <h3>GrowByData</h3>
+                  <h3 class="centraldata">GrowByData Services Private Limited</h3>
                   <div class="price">
-                    <h4></h4>
-                    <span></span>
+                   
                   </div>
-                  <ul class="price_features">
-                    <li>1 year and 3 months</li>                  
-                    <li>Universal Datahub</li>
-                    <li>Kathmandu, Boston, Chicago</li>
-                    <li></li>
+                  <ul class="price_features description">
+                   
+					
+					<li><b>JOB TITLE:</b> Software Engineer</li> 
+<li><b>CITY/STATE:</b> Lalitpur, Nepal/ Chicago-Boston, USA</li> 
+<li><b>DATES EMPLOYED:</b> September 2014 – January 2016</li> 
+<li><b>COMPANY INFORMATION:</b> GrowbyData is a fast growing company in the field of Big Data technologies with its offices in Chicago, Boston and Kathmandu. There are more than 50 employees in Kathmandu, Nepal and more than 10 in the US. It provides solutions for Big Data Analytics, Data Entry 2.0 and Smartsourcing.
+					
+						
+						</li>
+                
                     
                   </ul>
                 
                 </div>
               </div>
               <!-- BEGAIN STANDARD PRICE TABLE -->
-              <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="single_price wow fadeInUp">
-                  <h3>IRAS</h3>
+                  <h3  class="centraldata">Incessant Rain Animation Studio</h3>
                   <div class="price">
-                    <h4></h4>
-                    <span></span>
+                   
                   </div>
-                  <ul class="price_features">
-				   <li>Incessant Rain Animation Studio</li>
-                    <li>10 months</li>                  
-                    <li>IAPT, HRM</li>
-                    <li>Kathmandu, Nepal</li>
+
+
+
+                  <ul class="price_features description">
+				   <li><b>JOB TITLE:</b> Software Developer</li>
+                    <li><b>CITY/STATE: </b>Lalitpur, Nepal</li>                  
+                    <li><b>DATES EMPLOYED:</b> March 2013 – September 2014</li>
+                    <li><b>COMPANY INFORMATION:</b> IRAS – ‘Incessant Rain Animation Studio’ is Animation Company. There are more than 90 employees. It specialize in 3D character animation; visual effects for feature films and television; game cinematic and trailers; and commercials and integrated media.
+</li>
                    
                   </ul>
           
@@ -594,7 +567,7 @@
               <div class="single_contact_feaured wow fadeInUp">
                 <i class="fa fa-phone"></i>
                 <h4>Call</h4>
-                <p>1-</p>                
+                <p>+1-6414513303</p>                
               </div>
             </div>
             <!-- BEGAIN CALL US FEATURE -->
@@ -602,7 +575,7 @@
               <div class="single_contact_feaured wow fadeInUp">
                 <i class="fa fa-envelope-o"></i>
                 <h4>Email Address</h4>
-                <p>anish_shrestha@live.com</p>
+                <p>anish.shrestha237@gmail.com</p>
               </div>
             </div>
             <!-- BEGAIN CALL US FEATURE -->

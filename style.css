@@ -37,6 +37,7 @@ body,html{
 body {
  font-family: 'Open Sans', sans-serif;
   overflow-x: hidden !important;
+  background-color:#F8F8F8;
 }
 
 ul{
@@ -62,7 +63,7 @@ h3,h4,h5,h6{
 }
 
 h2 {
-  color: #313338;  
+  color: black;  
   font-size: 72px;
   font-weight: 700;
   line-height: 57px;
@@ -84,7 +85,33 @@ img{
   background-color:#000; /* change if the mask should have another color then white */
   z-index:99999; /* makes sure it stays on top */
 }
-
+figcaption { 
+    display: block;
+}
+.educationcaption {
+    text-align: center;
+    background-color: black;
+    color: wheat;
+}
+.description{
+	text-align:justify;
+}
+.skillformat{
+	color:white;
+	font-size:20px;
+	
+}
+.skillHeader{
+	
+	color:#FAFF39;
+	font-weight:bold;
+}
+figure{
+	border: 2px solid #73AD21;
+	border-color: black;
+	border-radius: 20px;
+	overflow: hidden;
+}
 #status {
   width:200px;
   height:200px;
@@ -674,6 +701,8 @@ div[data-dimension] {
 	width: 100%;
 	padding: 0px 35px;
 	margin-bottom: 40px;
+	background-color: white;
+	border: 1px solid #fff;
 }
 
 
@@ -994,11 +1023,14 @@ div[data-dimension] {
   width: 100%;
 }
 
-
+.centraldata{
+	text-align:center;
+	
+}
 .single_price {
   display: inline;
   float: left;
-  text-align: center;
+
   width: 100%;
   border: 1px solid #ccc;
   background: #fff;
@@ -1007,11 +1039,11 @@ div[data-dimension] {
 
 
 .single_price>h3{
-	font-size: 24px;
+	font-size: 25px;
 	font-weight: 700;
 	line-height: 100px;
 	margin: 0px;
-	text-transform: uppercase;
+	
 }
 
 
@@ -1045,7 +1077,7 @@ div[data-dimension] {
   font-size: 15px;
   line-height: 18px;
   padding: 10px 0;
-  text-transform: uppercase;
+ 
 }
 
 
