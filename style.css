@@ -38,7 +38,8 @@ body {
  font-family: 'Open Sans', sans-serif;
   overflow-x: hidden !important;
   background-color:#F8F8F8;
-  background-image: url("img/background.jpg"); 
+  /*background-image: url("img/background.jpg"); 
+   background-size: cover;*/
 }
 
 ul{
@@ -1008,7 +1009,7 @@ div[data-dimension] {
 
 #pricing {
   background: none repeat scroll 0 0 #f8f8f8;
-   background-image: url("img/background.jpg"); 
+/*   background-image: url("img/background.jpg"); */
   display: inline;
   float: left;
   padding: 80px 0;
@@ -1455,7 +1456,7 @@ div[data-dimension] {
 
 #contact{
 	background: none repeat scroll 0 0 #f8f8f8;
-	 background-image: url("img/background.jpg"); 
+	/* background-image: url("img/background.jpg"); */
 	display: inline;
 	float: left;
 	padding: 80px 0px 0px;
