@@ -246,7 +246,16 @@ figure{
 	position: relative;
 }
 
-
+.slider_overlay_picture {
+  background: none repeat scroll 0 0 #242434;
+  height: 100%;
+  opacity: 0.5;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+}
 .slider_overlay {
   background: none repeat scroll 0 0 #242434;
   height: 100%;
