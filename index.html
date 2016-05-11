@@ -475,6 +475,7 @@ Contributed to front-end and back-end design of the Universal Data Hub (UDH) fla
       <section id="contactFeature">
          <!-- SKILLS COUNTER OVERLAY -->
          <div class="slider_overlay"></div>
+	
          <div class="row">
             <div class="col-lg-12 col-md-12">
                <div class="container">
@@ -496,17 +497,18 @@ Contributed to front-end and back-end design of the Universal Data Hub (UDH) fla
                         </div>
                      </div>
                      <!-- BEGAIN CALL US FEATURE -->
-                     <div class="col-lg-3 col-md-3 col-sm-6">
+                     <div class="col-lg-6 col-md-6 col-sm-6">
                         <div class="single_contact_feaured wow fadeInUp">
                            <i class="fa fa-map-marker"></i>
                            <h4>Location</h4>
-                           <p>Iowa, Fairfield</p>
+                           <p>Iowa, Fairfield (1000 N 4th Street)</p>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
-         </div>  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+				 <div id="googleMap" style="width:100%;height:300px;"></div>
+         </div>  
       </section>
 	
       <!--=========== END CONTACT FEATURE SECTION ================-->
@@ -557,5 +559,17 @@ Contributed to front-end and back-end design of the Universal Data Hub (UDH) fla
       <script src="js/portfolio_slider.js"></script>
       <!-- Custom js-->
       <script src="js/custom.js"></script>
+	  <script>
+function initialize() {
+  var mapProp = {
+
+    center:new google.maps.LatLng(41.0177222,-091.9673056),
+    zoom:15,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
    </body>
 </html>
