@@ -30,10 +30,10 @@ Tags: light, white, landing page,single page,Multipurpose,custom-colors,Bootstra
 /*--------------------*/
 /* BASIC TYPOGRAPHY */
 /*--------------------*/
-
+/*
 body,html{
   overflow-x:hidden;
-}
+}*/
 body {
  font-family: 'Open Sans', sans-serif;
   overflow-x: hidden !important;
