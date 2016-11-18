@@ -669,14 +669,21 @@ Contributed to front-end and back-end design of the Universal Data Hub (UDH) fla
       <script src="js/custom.js"></script>
 	  <script>
 function initialize() {
+ var myLatLng = {lat: 37.551607, lng: -122.025147};
   var mapProp = {
 
-    center:new google.maps.LatLng(41.0177222,-091.9673056),
-    zoom:15,
+    center:new google.maps.LatLng(37.548271,-121.988571),
+    zoom:12,
     mapTypeId:google.maps.MapTypeId.ROADMAP
   };
   var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-}
+var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: '36543 San Pedro Dr, Fremont, CA'
+        });
+  
+  } 
 google.maps.event.addDomListener(window, 'load', initialize);
 </script>
    </body>
