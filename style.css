@@ -1,4 +1,4 @@
-/*
+﻿/*
 Template Name: SinglePro - Multipurpose Bootstrap HTML5/CSS3 One Page Template
 Template URI:http://www.wpfreeware.com/themes/premium/singlepro/
 Author: WpFreeware
@@ -37,7 +37,7 @@ body,html{
 body {
  font-family: 'Open Sans', sans-serif;
   overflow-x: hidden !important;
-  background-color:#F8F8F8;
+
   /*background-image: url("img/background.jpg"); 
    background-size: cover;*/
 }
@@ -695,6 +695,7 @@ div[data-dimension] {
   float: left;
   padding: 80px 0 70px;
   width: 100%;
+ 
 }
 
 
@@ -712,7 +713,7 @@ div[data-dimension] {
 	width: 100%;
 	padding: 0px 35px;
 	margin-bottom: 40px;
-	background-color: white;
+	
 	border: 1px solid #fff;
 }
 
@@ -1018,6 +1019,7 @@ div[data-dimension] {
 
 #pricing {
   background: none repeat scroll 0 0 #f8f8f8;
+  
 /*   background-image: url("img/background.jpg"); */
   display: inline;
   float: left;
@@ -1465,6 +1467,7 @@ div[data-dimension] {
 
 #contact{
 	background: none repeat scroll 0 0 #f8f8f8;
+
 	/* background-image: url("img/background.jpg"); */
 	display: inline;
 	float: left;
