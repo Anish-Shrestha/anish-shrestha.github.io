@@ -158,7 +158,7 @@ figure{
    position: fixed;
 bottom:5px;
   left: 5px;
-  z-index:99;
+  z-index:9999;
   background-color:black;
   padding:5px;
  
