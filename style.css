@@ -25,8 +25,44 @@ Tags: light, white, landing page,single page,Multipurpose,custom-colors,Bootstra
   #FOOTER
   #BLOG PAGE 
 */
-
-
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(119, 119, 119, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(248, 248, 248, 1);
+    border-width: 1px;
+    border-radius: 4px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(119, 119, 119, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(51, 51, 51, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(85, 85, 85, 1);
+    background-color: rgba(231, 231, 231, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #888;
+}
 /*--------------------*/
 /* BASIC TYPOGRAPHY */
 /*--------------------*/
@@ -158,7 +194,7 @@ figure{
    position: fixed;
 bottom:5px;
   left: 5px;
-  z-index:9999;
+  z-index:99999;
   background-color:black;
   padding:5px;
  
@@ -193,7 +229,7 @@ bottom:5px;
 .navbar-default {
   background-color: transparent;
   border-color: transparent;
-  margin-top: 20px;
+ 
   padding: 12px 0px;
 }
 
@@ -509,12 +545,12 @@ bottom:5px;
 
 
 .heading h2 {
-	display: inline-block;
-	margin-bottom: 35px;
-	padding-bottom: 15px;
+	/* display: inline-block; */
+	/* margin-bottom: 35px; */
+	/* padding-bottom: 15px; */
 	padding-right: 50px;
-	font-size: 40px;
-	line-height: 40px;
+	font-size: 30px;
+	/* line-height: 40px; */
 }
 
 
@@ -770,6 +806,7 @@ div[data-dimension] {
   position: relative;
   text-align: center;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 
@@ -1028,17 +1065,7 @@ div[data-dimension] {
 /*--------------------*/
 
 
-#pricing {
- /*  background: none repeat scroll 0 0 #f8f8f8; */
-  
-/*   background-image: url("img/background.jpg"); */
-  display: inline;
-  float: left;
-  padding: 80px 0;
-  width: 100%;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
-}
+
 
 
 .pricing_area {
@@ -1471,12 +1498,7 @@ div[data-dimension] {
 }
 
 
-/*--------------------*/
-/* CONTACT US SECTION */
-/*--------------------*/
-
-
-#contact{
+.header_section{
 	/*background: none repeat scroll 0 0 #f8f8f8;*/
 
 	/* background-image: url("img/background.jpg"); */
@@ -1486,6 +1508,7 @@ div[data-dimension] {
 	width: 100%;
 	border-top: 1px solid #eee;
 	border-bottom: 1px solid #eee;	
+	
 }
 
 
@@ -1791,7 +1814,7 @@ textarea .form-control {
   display: inline-block;
   font-size: 18px;
   height: 30px;
-  margin-left: 5px;
+  margin-left: 0px;
   text-align: center;
   width: 35px;
   line-height: 28px;
@@ -2500,7 +2523,7 @@ textarea .form-control {
 	#clients {padding: 50px 0 100px;}
 	#contact {padding: 50px 0 0;}
 	#subscribe {padding: 50px  0;}
-	.social_nav {margin-top: 20px;text-align: center;}
+	.social_nav {margin-top: 0px;text-align: center;}
 	.footer_left {text-align: center;}
 	.single_service > .service_title:after {left: 41%;}	
   .wagwep-container ul#portfolio-filter li {width: auto;}
@@ -2550,7 +2573,7 @@ textarea .form-control {
 	.clients_slider .slick-next {right: 40%;}
 	.subscribe_mail {width: 70%;font-size: 15px;}
 	.subscr_btn {width: 29%;font-size: 15px;}
-	.heading h2 { font-size: 25px;line-height: 30px;}
+	.heading h2 { font-size: 10px;line-height: 30px;}
 	.single_service > .service_title:after {left: 32%;}
 	.slides-navigation {display: none;}
   #blogBanner {height: 150px;padding: 45px 0;}
