@@ -6,43 +6,54 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <title>Anish Shrestha</title>
+	  
+	  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel = "stylesheet" type = "text/css" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" />
+
+<style>
+.imageContainer {
+	padding: 1px;
+}
+</style>
+
+	<title>Anish Shrestha</title>
     
    </head>
    <body>  
-      <img class="a" src="sign.png" alt="Under Construction" >
+     <div class="container">
+	 <div class="row">
+	 <div class="col-md-4 imageContainer">
+	 <img src="Images/IMG_3288.JPG" alt="" style="width:100%;"></div>
+	 <div class="col-md-4 imageContainer">
+	 <img src="Images/IMG_3427.JPG" alt="" style="width:100%;"></div>
+	 <div class="col-md-4 imageContainer">
+	 <img src="Images/IMG_3520.JPG" alt="" style="width:100%;"></div>
+	 <div class="col-md-4 imageContainer">
+	 <img src="Images/IMG_3590.JPG" alt="" style="width:100%;"></div>
+	 <div class="col-md-4 imageContainer">
+	 <img src="Images/IMG_3848.JPG" alt="" style="width:100%;"></div>
+	 <div class="col-md-4 imageContainer">
+	 <img src="Images/IMG_4118.JPG" alt="" style="width:100%;"></div>
+	 <div class="col-md-4 imageContainer">
+	 <img src="Images/IMG_4378.JPG" alt="" style="width:100%;"></div>
+	 <div class="col-md-4 imageContainer">
+	 <img src="Images/IMG_4380.JPG" alt="" style="width:100%;"></div>
+	 <div class="col-md-4 imageContainer">
+	 <img src="Images/IMG_4518.JPG" alt="" style="width:100%;"></div>
+	 <div class="col-md-4 imageContainer">
+	 <img src="Images/IMG_4528.JPG" alt="" style="width:100%;"></div>
+	 <div class="col-md-4 imageContainer">
+	 <img src="Images/IMG_4610.JPG" alt="" style="width:100%;"></div>
+	 <div class="col-md-4 imageContainer">
+	 <img src="Images/IMG_4742.JPG" alt="" style="width:100%;"></div>
+	 </div>
+	 </div>
+	 
+	 
 	 
    </body>
    
    <script>
-   $(document).ready(function(){
-   setTimeout(function(){
-    animateDiv();
-	}, 2000);
-    
-});
-
-function makeNewPosition(){
-    
-    // Get viewport dimensions (remove the dimension of the div)
-    var h = $(window).height() - 400;
-    var w = $(window).width() - 440;
-    
-    var nh = Math.floor(Math.random() * h);
-    var nw = Math.floor(Math.random() * w);
-    
-    return [nh,nw];    
-    
-}
-
-function animateDiv(){
-    var newq = makeNewPosition();
-    $('.a').animate({ 'margin-top': newq[0], 'margin-left': newq[1] }, function(){
-	  setTimeout(function(){
-      animateDiv();  
-	}, 1000);      
-    });
-    
-};
+ 
    </script>
 </html>
